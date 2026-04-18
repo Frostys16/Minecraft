@@ -1,0 +1,141 @@
+body {
+    background: #0d1117;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #161b22;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo h1 {
+    color: #2da44e;
+    margin: 0;
+    font-size: 28px;
+}
+
+.logo .subtitle {
+    color: gray;
+    font-size: 12px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    background: #21262d;
+    padding: 6px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #2da44e;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #161b22;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2da44e;
+    font-size: 24px;
+    border-bottom: 1px solid #2da44e;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: orange;
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+p {
+    color: #ccc;
+}
+
+.intro {
+    background: #21262d;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.card {
+    background: #21262d;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+.card h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+.card-grid {
+    margin: 15px 0;
+}
+
+.info-block {
+    background: #21262d;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 15px 0;
+}
+
+.info-block ul {
+    margin: 5px 0 0 20px;
+}
+
+.note {
+    background: #21262d;
+    padding: 10px;
+    border-left: 3px solid #2da44e;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.location-list {
+    margin: 15px 0;
+}
+
+.location-item {
+    background: #21262d;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+}
+
+.location-item h4 {
+    color: #2da44e;
+    margin: 0 0 5px;
+}
+
+.location-item p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #161b22;
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+}
